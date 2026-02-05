@@ -7,7 +7,7 @@
 > A curated collection of AI agent templates, MCP servers, tools, and resources for OpenClaw, Clawdbot, and MoltBot ecosystems.
 
 <p align="center">
-  <img src="assets/banner.png" alt="Awesome OpenClaw Agents" width="600">
+  <img src="https://placehold.co/800x200/1a1a2e/ffffff?text=🦞+Awesome+OpenClaw+Agents&font=montserrat" alt="Awesome OpenClaw Agents" width="600">
 </p>
 
 ## Contents
