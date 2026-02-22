@@ -23,6 +23,20 @@ CrewClaw packages your SOUL.md with Dockerfile, Telegram bot, and deployment con
 
 ---
 
+<div align="center">
+
+**If this repo saved you time, consider supporting the work:**
+
+<a href="https://github.com/sponsors/mergisi">
+  <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor" />
+</a>
+
+New templates every month, MCP integrations, guides, and compatibility updates. Even $1/mo helps.
+
+</div>
+
+---
+
 ## Contents
 
 - [Agent Templates](#agent-templates)
@@ -254,26 +268,6 @@ openclaw agents add agent-name --workspace ./agents/agent-name
 - [🦀 CrewClaw](https://crewclaw.com) - Deploy and orchestrate AI agents as a team. No code required.
 - [OpenClaw](https://github.com/openclaw) - Official OpenClaw repository
 - [Anthropic MCP](https://github.com/anthropics/mcp) - Model Context Protocol
-
----
-
-## Support This Project
-
-I maintain this repo, write new templates, and keep everything up to date as a solo developer.
-
-If this saved you hours of writing SOUL.md files from scratch, consider supporting the work:
-
-<a href="https://github.com/sponsors/mergisi">
-  <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor" />
-</a>
-
-**What your sponsorship funds:**
-- New agent templates every month (25 and counting)
-- MCP server integrations and testing
-- Guides, tutorials, and documentation
-- Keeping everything compatible with the latest OpenClaw releases
-
-Even $1/mo helps. Every sponsor gets a shoutout in this README.
 
 ---
 
