@@ -39,6 +39,7 @@ New templates every month, MCP integrations, guides, and compatibility updates. 
 - [Agent Templates](#agent-templates) (53 agents across 13 categories)
   - [Productivity](#productivity) · [Development](#development) · [Marketing & Content](#marketing--content) · [Business](#business) · [Personal](#personal)
   - [DevOps](#devops) · [Finance](#finance) · [Education](#education) · [Healthcare](#healthcare) · [Legal](#legal) · [HR](#hr) · [Creative](#creative) · [Security](#security)
+- [Use Cases](#use-cases) (132 real-world examples)
 - [Quickstart](#quickstart)
 - [Why OpenClaw?](#why-openclaw) (Comparison)
 - [MCP Servers](#mcp-servers)
@@ -180,6 +181,18 @@ node bot.js
 | [🔐 Access Auditor](agents/security/access-auditor/) | Reviews permissions, flags excessive access | [View](agents/security/access-auditor/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent) |
 | [👁️ Threat Monitor](agents/security/threat-monitor/) | Monitors threat feeds, alerts on relevant threats | [View](agents/security/threat-monitor/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent) |
 | [📓 Incident Logger](agents/security/incident-logger/) | Documents security incidents, tracks resolution | [View](agents/security/incident-logger/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent) |
+
+---
+
+## Use Cases
+
+**132 verified real-world use cases** — what people are actually building with OpenClaw agents.
+
+From developer workflows and DevOps automation to smart home control, crypto trading, robotics, and agents that modify their own code.
+
+**[Browse all 132 use cases →](USE-CASES.md)**
+
+Top categories: Personal Productivity (14) · Business Operations (11) · Developer Workflows (10) · Content Creation (10) · Ecosystem Tools (10)
 
 ---
 
