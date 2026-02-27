@@ -22,13 +22,27 @@
 
 <div align="center">
 
+### 📦 OpenClaw AI Agents Kit
+
+**Build your AI team in 15 minutes.** 6 production-ready agents, SOUL.md files, Telegram bots, Docker configs, and a step-by-step setup guide.
+
+<a href="https://mustafae.gumroad.com/l/oeyqxe">
+  <img src="https://img.shields.io/badge/Get_the_Kit-$9-orange?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMSAxNVY1YTIgMiAwIDAwLTItMkg1YTIgMiAwIDAwLTIgMnYxMGEyIDIgMCAwMDIgMmgxNGEyIDIgMCAwMDItMnptLTktMWwtNS0zaDEwbC01IDN6Ii8+PC9zdmc+" alt="Get the Kit" />
+</a>
+
+What's inside: PM, Writer, SEO, Analyst, DevOps, Outreach agents + Docker + Telegram bot + deployment guide.
+
+</div>
+
+---
+
+<div align="center">
+
 **If this repo saved you time, consider supporting the work:**
 
 <a href="https://github.com/sponsors/mergisi">
   <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor" />
 </a>
-
-New templates every month, MCP integrations, guides, and compatibility updates. Even $1/mo helps.
 
 </div>
 
