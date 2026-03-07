@@ -1,587 +1,805 @@
-[
-  {
-    "id": "orion",
-    "name": "Orion",
-    "emoji": "🎯",
-    "category": "productivity",
-    "description": "Task coordinator and project manager",
-    "soul_md": "agents/productivity/orion/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent/project-manager-soul-md"
-  },
-  {
-    "id": "pulse",
-    "name": "Pulse",
-    "emoji": "📊",
-    "category": "productivity",
-    "description": "Analytics dashboard agent (Mixpanel, Stripe, GA4)",
-    "soul_md": "agents/productivity/metrics/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "standup",
-    "name": "Standup",
-    "emoji": "🧍",
-    "category": "productivity",
-    "description": "Daily standup collector and team summarizer",
-    "soul_md": "agents/productivity/daily-standup/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "inbox",
-    "name": "Inbox",
-    "emoji": "📧",
-    "category": "productivity",
-    "description": "Email triage, response drafting, daily digest",
-    "soul_md": "agents/productivity/inbox-zero/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "minutes",
-    "name": "Minutes",
-    "emoji": "📝",
-    "category": "productivity",
-    "description": "Meeting summarizer and action item tracker",
-    "soul_md": "agents/productivity/meeting-notes/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "lens",
-    "name": "Lens",
-    "emoji": "🔎",
-    "category": "development",
-    "description": "PR review, security scanning, quality assessment",
-    "soul_md": "agents/development/code-reviewer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent/code-reviewer-soul-md"
-  },
-  {
-    "id": "scribe",
-    "name": "Scribe",
-    "emoji": "📖",
-    "category": "development",
-    "description": "README, API docs, and code documentation generator",
-    "soul_md": "agents/development/docs-writer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent/technical-writer-soul-md"
-  },
-  {
-    "id": "trace",
-    "name": "Trace",
-    "emoji": "🐛",
-    "category": "development",
-    "description": "Error analysis, root cause investigation, debugging",
-    "soul_md": "agents/development/bug-hunter/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "probe",
-    "name": "Probe",
-    "emoji": "🧪",
-    "category": "development",
-    "description": "API endpoint testing, health checks, performance",
-    "soul_md": "agents/development/api-tester/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "log",
-    "name": "Log",
-    "emoji": "📋",
-    "category": "development",
-    "description": "Auto-changelog from git commits, release notes",
-    "soul_md": "agents/development/changelog/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "echo",
-    "name": "Echo",
-    "emoji": "✍️",
-    "category": "marketing",
-    "description": "Content writer for blogs, social, emails",
-    "soul_md": "agents/marketing/echo/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent/content-writer-soul-md"
-  },
-  {
-    "id": "buzz",
-    "name": "Buzz",
-    "emoji": "📱",
-    "category": "marketing",
-    "description": "Social media manager for Twitter, LinkedIn, threads",
-    "soul_md": "agents/marketing/social-media/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent/social-media-manager-soul-md"
-  },
-  {
-    "id": "rank",
-    "name": "Rank",
-    "emoji": "🔍",
-    "category": "marketing",
-    "description": "SEO content writer with keyword research from GSC",
-    "soul_md": "agents/marketing/seo-writer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent/seo-specialist-soul-md"
-  },
-  {
-    "id": "digest",
-    "name": "Digest",
-    "emoji": "📬",
-    "category": "marketing",
-    "description": "Weekly newsletter curator and email writer",
-    "soul_md": "agents/marketing/newsletter/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "scout",
-    "name": "Scout",
-    "emoji": "🔭",
-    "category": "marketing",
-    "description": "Competitor monitoring, pricing intel, market analysis",
-    "soul_md": "agents/marketing/competitor-watch/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "radar",
-    "name": "Radar",
-    "emoji": "📊",
-    "category": "business",
-    "description": "Data analyst and insights generator",
-    "soul_md": "agents/business/radar/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent/data-analyst-soul-md"
-  },
-  {
-    "id": "compass",
-    "name": "Compass",
-    "emoji": "🎧",
-    "category": "business",
-    "description": "Support ticket triage, response drafting, escalation",
-    "soul_md": "agents/business/customer-support/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent/customer-support-soul-md"
-  },
-  {
-    "id": "pipeline",
-    "name": "Pipeline",
-    "emoji": "💼",
-    "category": "business",
-    "description": "Lead scoring, outreach drafting, pipeline reports",
-    "soul_md": "agents/business/sales-assistant/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent/sales-representative-soul-md"
-  },
-  {
-    "id": "ledger",
-    "name": "Ledger",
-    "emoji": "💰",
-    "category": "business",
-    "description": "Payment monitoring, invoice tracking, MRR reports",
-    "soul_md": "agents/business/invoice-tracker/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "sentinel",
-    "name": "Sentinel",
-    "emoji": "🔮",
-    "category": "business",
-    "description": "Churn risk scoring, retention actions, re-engagement",
-    "soul_md": "agents/business/churn-predictor/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "atlas",
-    "name": "Atlas",
-    "emoji": "📅",
-    "category": "personal",
-    "description": "Daily schedule optimizer, morning plans, evening reviews",
-    "soul_md": "agents/personal/daily-planner/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "scroll",
-    "name": "Scroll",
-    "emoji": "📚",
-    "category": "personal",
-    "description": "Article summarizer, weekly reading digest, Notion sync",
-    "soul_md": "agents/personal/reading-digest/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "iron",
-    "name": "Iron",
-    "emoji": "💪",
-    "category": "personal",
-    "description": "Workout planner, nutrition tracker, progress reports",
-    "soul_md": "agents/personal/fitness-coach/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent/fitness-coach-soul-md"
-  },
-  {
-    "id": "incident-responder",
-    "name": "Incident Responder",
-    "emoji": "🚨",
-    "category": "devops",
-    "description": "Monitors alerts, triages incidents, coordinates response",
-    "soul_md": "agents/devops/incident-responder/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "deploy-guardian",
-    "name": "Deploy Guardian",
-    "emoji": "🚀",
-    "category": "devops",
-    "description": "Watches CI/CD pipelines, reports deployment status",
-    "soul_md": "agents/devops/deploy-guardian/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "infra-monitor",
-    "name": "Infra Monitor",
-    "emoji": "🖥️",
-    "category": "devops",
-    "description": "Tracks server health, disk, CPU, memory usage",
-    "soul_md": "agents/devops/infra-monitor/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "log-analyzer",
-    "name": "Log Analyzer",
-    "emoji": "📜",
-    "category": "devops",
-    "description": "Parses logs, finds patterns, alerts on anomalies",
-    "soul_md": "agents/devops/log-analyzer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "cost-optimizer",
-    "name": "Cost Optimizer",
-    "emoji": "💸",
-    "category": "devops",
-    "description": "Monitors cloud spend, suggests savings",
-    "soul_md": "agents/devops/cost-optimizer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "expense-tracker",
-    "name": "Expense Tracker",
-    "emoji": "🧾",
-    "category": "finance",
-    "description": "Categorizes expenses, tracks budgets, sends alerts",
-    "soul_md": "agents/finance/expense-tracker/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "invoice-manager",
-    "name": "Invoice Manager",
-    "emoji": "🧮",
-    "category": "finance",
-    "description": "Creates, tracks, and follows up on invoices",
-    "soul_md": "agents/finance/invoice-manager/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "revenue-analyst",
-    "name": "Revenue Analyst",
-    "emoji": "📈",
-    "category": "finance",
-    "description": "Analyzes revenue streams, MRR, churn, forecasts",
-    "soul_md": "agents/finance/revenue-analyst/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "tax-preparer",
-    "name": "Tax Preparer",
-    "emoji": "🏦",
-    "category": "finance",
-    "description": "Organizes receipts, calculates deductions, prepares summaries",
-    "soul_md": "agents/finance/tax-preparer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "tutor",
-    "name": "Tutor",
-    "emoji": "🎓",
-    "category": "education",
-    "description": "Explains concepts, creates practice problems, adapts to level",
-    "soul_md": "agents/education/tutor/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "quiz-maker",
-    "name": "Quiz Maker",
-    "emoji": "❓",
-    "category": "education",
-    "description": "Generates quizzes from content, tracks scores",
-    "soul_md": "agents/education/quiz-maker/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "study-planner",
-    "name": "Study Planner",
-    "emoji": "📖",
-    "category": "education",
-    "description": "Creates study schedules, sends reminders, tracks progress",
-    "soul_md": "agents/education/study-planner/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "research-assistant",
-    "name": "Research Assistant",
-    "emoji": "🔬",
-    "category": "education",
-    "description": "Finds papers, summarizes research, manages citations",
-    "soul_md": "agents/education/research-assistant/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "wellness-coach",
-    "name": "Wellness Coach",
-    "emoji": "🧘",
-    "category": "healthcare",
-    "description": "Daily check-ins, habit tracking, mental health tips",
-    "soul_md": "agents/healthcare/wellness-coach/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "meal-planner",
-    "name": "Meal Planner",
-    "emoji": "🥗",
-    "category": "healthcare",
-    "description": "Creates meal plans, tracks nutrition, generates shopping lists",
-    "soul_md": "agents/healthcare/meal-planner/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "workout-tracker",
-    "name": "Workout Tracker",
-    "emoji": "🏋️",
-    "category": "healthcare",
-    "description": "Designs workout plans, tracks progress, adjusts intensity",
-    "soul_md": "agents/healthcare/workout-tracker/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "contract-reviewer",
-    "name": "Contract Reviewer",
-    "emoji": "📜",
-    "category": "legal",
-    "description": "Reviews contracts, flags risky clauses, suggests edits",
-    "soul_md": "agents/legal/contract-reviewer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "compliance-checker",
-    "name": "Compliance Checker",
-    "emoji": "✅",
-    "category": "legal",
-    "description": "Monitors compliance requirements, tracks deadlines",
-    "soul_md": "agents/legal/compliance-checker/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "policy-writer",
-    "name": "Policy Writer",
-    "emoji": "📋",
-    "category": "legal",
-    "description": "Drafts internal policies, terms of service, privacy policies",
-    "soul_md": "agents/legal/policy-writer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "recruiter",
-    "name": "Recruiter",
-    "emoji": "🤝",
-    "category": "hr",
-    "description": "Screens resumes, schedules interviews, tracks candidates",
-    "soul_md": "agents/hr/recruiter/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "onboarding",
-    "name": "Onboarding",
-    "emoji": "🎒",
-    "category": "hr",
-    "description": "Guides new hires through setup, answers questions",
-    "soul_md": "agents/hr/onboarding/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "performance-reviewer",
-    "name": "Performance Reviewer",
-    "emoji": "📊",
-    "category": "hr",
-    "description": "Collects feedback, generates review summaries",
-    "soul_md": "agents/hr/performance-reviewer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "brand-designer",
-    "name": "Brand Designer",
-    "emoji": "🎨",
-    "category": "creative",
-    "description": "Creates brand guidelines, color palettes, messaging",
-    "soul_md": "agents/creative/brand-designer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "video-scripter",
-    "name": "Video Scripter",
-    "emoji": "🎬",
-    "category": "creative",
-    "description": "Writes video scripts, outlines, and shot lists",
-    "soul_md": "agents/creative/video-scripter/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "podcast-producer",
-    "name": "Podcast Producer",
-    "emoji": "🎙️",
-    "category": "creative",
-    "description": "Plans episodes, writes show notes, manages guests",
-    "soul_md": "agents/creative/podcast-producer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "ux-researcher",
-    "name": "UX Researcher",
-    "emoji": "🧑‍💻",
-    "category": "creative",
-    "description": "Conducts user surveys, analyzes feedback, writes reports",
-    "soul_md": "agents/creative/ux-researcher/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "vuln-scanner",
-    "name": "Vuln Scanner",
-    "emoji": "🛡️",
-    "category": "security",
-    "description": "Scans for vulnerabilities, prioritizes fixes",
-    "soul_md": "agents/security/vuln-scanner/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "access-auditor",
-    "name": "Access Auditor",
-    "emoji": "🔐",
-    "category": "security",
-    "description": "Reviews permissions, flags excessive access",
-    "soul_md": "agents/security/access-auditor/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "threat-monitor",
-    "name": "Threat Monitor",
-    "emoji": "👁️",
-    "category": "security",
-    "description": "Monitors threat feeds, alerts on relevant threats",
-    "soul_md": "agents/security/threat-monitor/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "incident-logger",
-    "name": "Incident Logger",
-    "emoji": "📓",
-    "category": "security",
-    "description": "Documents security incidents, tracks resolution",
-    "soul_md": "agents/security/incident-logger/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "reddit-scout",
-    "name": "Reddit Scout",
-    "emoji": "🔎",
-    "category": "marketing",
-    "description": "Subreddit monitoring, sentiment analysis, reply opportunities, daily digest",
-    "soul_md": "agents/marketing/reddit-scout/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "home-automation",
-    "name": "Home Automation",
-    "emoji": "🏠",
-    "category": "personal",
-    "description": "Smart home control via Telegram, Home Assistant integration, IoT devices",
-    "soul_md": "agents/personal/home-automation/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "tiktok-repurposer",
-    "name": "TikTok Repurposer",
-    "emoji": "🎵",
-    "category": "marketing",
-    "description": "Convert blogs and podcasts into TikTok, Reels, and Shorts scripts",
-    "soul_md": "agents/marketing/tiktok-repurposer/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "trading-bot",
-    "name": "Trading Bot",
-    "emoji": "📉",
-    "category": "finance",
-    "description": "Portfolio tracking, market sentiment, price alerts, daily P&L reports",
-    "soul_md": "agents/finance/trading-bot/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "security-hardener",
-    "name": "Security Hardener",
-    "emoji": "🔒",
-    "category": "security",
-    "description": "Audit SOUL.md, scan skills for malware, harden gateway configuration",
-    "soul_md": "agents/security/security-hardener/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "personal-crm",
-    "name": "Personal CRM",
-    "emoji": "🤝",
-    "category": "business",
-    "description": "Contact tracking, follow-up reminders, relationship health reports",
-    "soul_md": "agents/business/personal-crm/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "family-coordinator",
-    "name": "Family Coordinator",
-    "emoji": "👨‍👩‍👧‍👦",
-    "category": "personal",
-    "description": "Shared calendar, meal planning, chore rotation, grocery lists",
-    "soul_md": "agents/personal/family-coordinator/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "cold-outreach",
-    "name": "Cold Outreach",
-    "emoji": "📨",
-    "category": "marketing",
-    "description": "Lead research, personalized cold emails, outreach sequences, response tracking",
-    "soul_md": "agents/marketing/cold-outreach/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "self-healing-server",
-    "name": "Self-Healing Server",
-    "emoji": "🔧",
-    "category": "devops",
-    "description": "Auto-restart crashed containers, disk cleanup, 3am incident recovery",
-    "soul_md": "agents/devops/self-healing-server/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "raspberry-pi",
-    "name": "Raspberry Pi Agent",
-    "emoji": "🍓",
-    "category": "devops",
-    "description": "Lightweight edge agent optimized for Raspberry Pi, low-RAM, token-efficient",
-    "soul_md": "agents/devops/raspberry-pi/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "dependency-scanner",
-    "name": "Dependency Scanner",
-    "emoji": "🔗",
-    "category": "development",
-    "description": "CVE scanning, license checks, supply chain security, auto-upgrade PRs",
-    "soul_md": "agents/development/dependency-scanner/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  },
-  {
-    "id": "whatsapp-business",
-    "name": "WhatsApp Business Bot",
-    "emoji": "💬",
-    "category": "business",
-    "description": "Multi-channel support (WhatsApp, Instagram, email), lead qualification, appointment booking",
-    "soul_md": "agents/business/whatsapp-business/SOUL.md",
-    "deploy_url": "https://crewclaw.com/create-agent"
-  }
-]
+{
+  "total": 100,
+  "agents": [
+    {
+      "id": "churn-predictor",
+      "category": "business",
+      "name": "churn-predictor",
+      "role": "",
+      "path": "agents/business/churn-predictor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "competitor-pricing",
+      "category": "business",
+      "name": "Competitor Pricing",
+      "role": "Competitive Pricing Intelligence Agent",
+      "path": "agents/business/competitor-pricing/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "customer-support",
+      "category": "business",
+      "name": "customer-support",
+      "role": "",
+      "path": "agents/business/customer-support/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "invoice-tracker",
+      "category": "business",
+      "name": "invoice-tracker",
+      "role": "",
+      "path": "agents/business/invoice-tracker/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "meeting-scheduler",
+      "category": "business",
+      "name": "Meeting Scheduler",
+      "role": "Intelligent Meeting Coordination Agent",
+      "path": "agents/business/meeting-scheduler/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "personal-crm",
+      "category": "business",
+      "name": "personal-crm",
+      "role": "",
+      "path": "agents/business/personal-crm/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "radar",
+      "category": "business",
+      "name": "radar",
+      "role": "",
+      "path": "agents/business/radar/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "sales-assistant",
+      "category": "business",
+      "name": "sales-assistant",
+      "role": "",
+      "path": "agents/business/sales-assistant/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "whatsapp-business",
+      "category": "business",
+      "name": "Your Business Name",
+      "role": "",
+      "path": "agents/business/whatsapp-business/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "brand-designer",
+      "category": "creative",
+      "name": "brand-designer",
+      "role": "",
+      "path": "agents/creative/brand-designer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "copywriter",
+      "category": "creative",
+      "name": "Copywriter",
+      "role": "Conversion-Focused Copywriting Agent",
+      "path": "agents/creative/copywriter/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "podcast-producer",
+      "category": "creative",
+      "name": "podcast-producer",
+      "role": "",
+      "path": "agents/creative/podcast-producer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "thumbnail-designer",
+      "category": "creative",
+      "name": "Thumbnail Designer",
+      "role": "Visual Thumbnail and Banner Design Agent",
+      "path": "agents/creative/thumbnail-designer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "ux-researcher",
+      "category": "creative",
+      "name": "ux-researcher",
+      "role": "",
+      "path": "agents/creative/ux-researcher/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "video-scripter",
+      "category": "creative",
+      "name": "video-scripter",
+      "role": "",
+      "path": "agents/creative/video-scripter/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "dashboard-builder",
+      "category": "data",
+      "name": "Dashboard Builder",
+      "role": "Analytics Dashboard Design Agent",
+      "path": "agents/data/dashboard-builder/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "data-cleaner",
+      "category": "data",
+      "name": "Data Cleaner",
+      "role": "Data Quality and Cleaning Agent",
+      "path": "agents/data/data-cleaner/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "etl-pipeline",
+      "category": "data",
+      "name": "ETL Pipeline",
+      "role": "Data Pipeline Orchestration Agent",
+      "path": "agents/data/etl-pipeline/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "report-generator",
+      "category": "data",
+      "name": "Report Generator",
+      "role": "Automated Business Report Agent",
+      "path": "agents/data/report-generator/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "sql-assistant",
+      "category": "data",
+      "name": "SQL Assistant",
+      "role": "SQL Query Builder and Optimizer Agent",
+      "path": "agents/data/sql-assistant/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "api-tester",
+      "category": "development",
+      "name": "api-tester",
+      "role": "",
+      "path": "agents/development/api-tester/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "bug-hunter",
+      "category": "development",
+      "name": "bug-hunter",
+      "role": "",
+      "path": "agents/development/bug-hunter/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "changelog",
+      "category": "development",
+      "name": "changelog",
+      "role": "",
+      "path": "agents/development/changelog/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "code-reviewer",
+      "category": "development",
+      "name": "code-reviewer",
+      "role": "",
+      "path": "agents/development/code-reviewer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "dependency-scanner",
+      "category": "development",
+      "name": "backend",
+      "role": "",
+      "path": "agents/development/dependency-scanner/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "docs-writer",
+      "category": "development",
+      "name": "docs-writer",
+      "role": "",
+      "path": "agents/development/docs-writer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "migration-helper",
+      "category": "development",
+      "name": "Migration Helper",
+      "role": "Database and Framework Migration Agent",
+      "path": "agents/development/migration-helper/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "pr-merger",
+      "category": "development",
+      "name": "PR Merger",
+      "role": "Pull Request Management Agent",
+      "path": "agents/development/pr-merger/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "test-writer",
+      "category": "development",
+      "name": "Test Writer",
+      "role": "Automated Test Generation Agent",
+      "path": "agents/development/test-writer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "cost-optimizer",
+      "category": "devops",
+      "name": "cost-optimizer",
+      "role": "",
+      "path": "agents/devops/cost-optimizer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "deploy-guardian",
+      "category": "devops",
+      "name": "deploy-guardian",
+      "role": "",
+      "path": "agents/devops/deploy-guardian/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "incident-responder",
+      "category": "devops",
+      "name": "incident-responder",
+      "role": "",
+      "path": "agents/devops/incident-responder/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "infra-monitor",
+      "category": "devops",
+      "name": "infra-monitor",
+      "role": "",
+      "path": "agents/devops/infra-monitor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "log-analyzer",
+      "category": "devops",
+      "name": "log-analyzer",
+      "role": "",
+      "path": "agents/devops/log-analyzer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "raspberry-pi",
+      "category": "devops",
+      "name": "pihole",
+      "role": "",
+      "path": "agents/devops/raspberry-pi/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "self-healing-server",
+      "category": "devops",
+      "name": "openclaw-gateway",
+      "role": "",
+      "path": "agents/devops/self-healing-server/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "abandoned-cart",
+      "category": "ecommerce",
+      "name": "Abandoned Cart",
+      "role": "Cart Recovery and Conversion Agent",
+      "path": "agents/ecommerce/abandoned-cart/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "inventory-tracker",
+      "category": "ecommerce",
+      "name": "Inventory Tracker",
+      "role": "E-commerce Inventory Management Agent",
+      "path": "agents/ecommerce/inventory-tracker/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "pricing-optimizer",
+      "category": "ecommerce",
+      "name": "Pricing Optimizer",
+      "role": "Dynamic Pricing Strategy Agent",
+      "path": "agents/ecommerce/pricing-optimizer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "product-lister",
+      "category": "ecommerce",
+      "name": "Product Lister",
+      "role": "E-commerce Product Listing Agent",
+      "path": "agents/ecommerce/product-lister/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "review-responder",
+      "category": "ecommerce",
+      "name": "Review Responder",
+      "role": "Customer Review Response Agent",
+      "path": "agents/ecommerce/review-responder/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "language-tutor",
+      "category": "education",
+      "name": "Language Tutor",
+      "role": "Personalized Language Learning Agent",
+      "path": "agents/education/language-tutor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "quiz-maker",
+      "category": "education",
+      "name": "quiz-maker",
+      "role": "",
+      "path": "agents/education/quiz-maker/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "research-assistant",
+      "category": "education",
+      "name": "research-assistant",
+      "role": "",
+      "path": "agents/education/research-assistant/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "study-planner",
+      "category": "education",
+      "name": "study-planner",
+      "role": "",
+      "path": "agents/education/study-planner/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "tutor",
+      "category": "education",
+      "name": "tutor",
+      "role": "",
+      "path": "agents/education/tutor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "expense-tracker",
+      "category": "finance",
+      "name": "expense-tracker",
+      "role": "",
+      "path": "agents/finance/expense-tracker/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "invoice-manager",
+      "category": "finance",
+      "name": "invoice-manager",
+      "role": "",
+      "path": "agents/finance/invoice-manager/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "revenue-analyst",
+      "category": "finance",
+      "name": "revenue-analyst",
+      "role": "",
+      "path": "agents/finance/revenue-analyst/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "tax-preparer",
+      "category": "finance",
+      "name": "tax-preparer",
+      "role": "",
+      "path": "agents/finance/tax-preparer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "trading-bot",
+      "category": "finance",
+      "name": "trading-bot",
+      "role": "",
+      "path": "agents/finance/trading-bot/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "client-manager",
+      "category": "freelance",
+      "name": "Client Manager",
+      "role": "Freelance Client Relationship Agent",
+      "path": "agents/freelance/client-manager/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "proposal-writer",
+      "category": "freelance",
+      "name": "Proposal Writer",
+      "role": "Freelance Proposal Drafting Agent",
+      "path": "agents/freelance/proposal-writer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "time-tracker",
+      "category": "freelance",
+      "name": "Time Tracker",
+      "role": "Freelance Time and Productivity Agent",
+      "path": "agents/freelance/time-tracker/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "meal-planner",
+      "category": "healthcare",
+      "name": "meal-planner",
+      "role": "",
+      "path": "agents/healthcare/meal-planner/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "wellness-coach",
+      "category": "healthcare",
+      "name": "wellness-coach",
+      "role": "",
+      "path": "agents/healthcare/wellness-coach/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "workout-tracker",
+      "category": "healthcare",
+      "name": "workout-tracker",
+      "role": "",
+      "path": "agents/healthcare/workout-tracker/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "onboarding",
+      "category": "hr",
+      "name": "onboarding",
+      "role": "",
+      "path": "agents/hr/onboarding/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "performance-reviewer",
+      "category": "hr",
+      "name": "performance-reviewer",
+      "role": "",
+      "path": "agents/hr/performance-reviewer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "recruiter",
+      "category": "hr",
+      "name": "recruiter",
+      "role": "",
+      "path": "agents/hr/recruiter/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "compliance-checker",
+      "category": "legal",
+      "name": "compliance-checker",
+      "role": "",
+      "path": "agents/legal/compliance-checker/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "contract-reviewer",
+      "category": "legal",
+      "name": "contract-reviewer",
+      "role": "",
+      "path": "agents/legal/contract-reviewer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "policy-writer",
+      "category": "legal",
+      "name": "policy-writer",
+      "role": "",
+      "path": "agents/legal/policy-writer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "ab-test-analyzer",
+      "category": "marketing",
+      "name": "A/B Test Analyzer",
+      "role": "Experimentation and A/B Test Analysis Agent",
+      "path": "agents/marketing/ab-test-analyzer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "brand-monitor",
+      "category": "marketing",
+      "name": "Brand Monitor",
+      "role": "Brand Mention and Reputation Tracking Agent",
+      "path": "agents/marketing/brand-monitor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "cold-outreach",
+      "category": "marketing",
+      "name": "cold-outreach",
+      "role": "",
+      "path": "agents/marketing/cold-outreach/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "competitor-watch",
+      "category": "marketing",
+      "name": "competitor-watch",
+      "role": "",
+      "path": "agents/marketing/competitor-watch/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "echo",
+      "category": "marketing",
+      "name": "echo",
+      "role": "",
+      "path": "agents/marketing/echo/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "influencer-finder",
+      "category": "marketing",
+      "name": "Influencer Finder",
+      "role": "Influencer Discovery and Outreach Agent",
+      "path": "agents/marketing/influencer-finder/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "newsletter",
+      "category": "marketing",
+      "name": "newsletter",
+      "role": "",
+      "path": "agents/marketing/newsletter/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "reddit-scout",
+      "category": "marketing",
+      "name": "reddit-scout",
+      "role": "",
+      "path": "agents/marketing/reddit-scout/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "seo-writer",
+      "category": "marketing",
+      "name": "seo-writer",
+      "role": "",
+      "path": "agents/marketing/seo-writer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "social-media",
+      "category": "marketing",
+      "name": "social-media",
+      "role": "",
+      "path": "agents/marketing/social-media/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "tiktok-repurposer",
+      "category": "marketing",
+      "name": "tiktok-repurposer",
+      "role": "",
+      "path": "agents/marketing/tiktok-repurposer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "daily-planner",
+      "category": "personal",
+      "name": "daily-planner",
+      "role": "",
+      "path": "agents/personal/daily-planner/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "family-coordinator",
+      "category": "personal",
+      "name": "Dad",
+      "role": "",
+      "path": "agents/personal/family-coordinator/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "fitness-coach",
+      "category": "personal",
+      "name": "fitness-coach",
+      "role": "",
+      "path": "agents/personal/fitness-coach/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "home-automation",
+      "category": "personal",
+      "name": "home-automation",
+      "role": "",
+      "path": "agents/personal/home-automation/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "reading-digest",
+      "category": "personal",
+      "name": "reading-digest",
+      "role": "",
+      "path": "agents/personal/reading-digest/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "daily-standup",
+      "category": "productivity",
+      "name": "daily-standup",
+      "role": "",
+      "path": "agents/productivity/daily-standup/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "focus-timer",
+      "category": "productivity",
+      "name": "Focus Timer",
+      "role": "Deep Work and Focus Management Agent",
+      "path": "agents/productivity/focus-timer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "habit-tracker",
+      "category": "productivity",
+      "name": "Habit Tracker",
+      "role": "Daily Habit and Streak Management Agent",
+      "path": "agents/productivity/habit-tracker/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "inbox-zero",
+      "category": "productivity",
+      "name": "inbox-zero",
+      "role": "",
+      "path": "agents/productivity/inbox-zero/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "meeting-notes",
+      "category": "productivity",
+      "name": "meeting-notes",
+      "role": "",
+      "path": "agents/productivity/meeting-notes/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "metrics",
+      "category": "productivity",
+      "name": "metrics",
+      "role": "",
+      "path": "agents/productivity/metrics/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "orion",
+      "category": "productivity",
+      "name": "orion",
+      "role": "",
+      "path": "agents/productivity/orion/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "lead-qualifier",
+      "category": "real-estate",
+      "name": "Lead Qualifier",
+      "role": "Real Estate Lead Qualification Agent",
+      "path": "agents/real-estate/lead-qualifier/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "listing-scout",
+      "category": "real-estate",
+      "name": "Listing Scout",
+      "role": "Real Estate Listing Discovery Agent",
+      "path": "agents/real-estate/listing-scout/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "market-analyzer",
+      "category": "real-estate",
+      "name": "Market Analyzer",
+      "role": "Real Estate Market Intelligence Agent",
+      "path": "agents/real-estate/market-analyzer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "churn-prevention",
+      "category": "saas",
+      "name": "Churn Prevention",
+      "role": "SaaS Churn Detection and Prevention Agent",
+      "path": "agents/saas/churn-prevention/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "feature-request",
+      "category": "saas",
+      "name": "Feature Request",
+      "role": "Feature Request Triage and Prioritization Agent",
+      "path": "agents/saas/feature-request/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "onboarding-flow",
+      "category": "saas",
+      "name": "Onboarding Flow",
+      "role": "SaaS User Onboarding Agent",
+      "path": "agents/saas/onboarding-flow/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "release-notes",
+      "category": "saas",
+      "name": "Release Notes",
+      "role": "Product Release Communication Agent",
+      "path": "agents/saas/release-notes/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "usage-analytics",
+      "category": "saas",
+      "name": "Usage Analytics",
+      "role": "Product Usage Intelligence Agent",
+      "path": "agents/saas/usage-analytics/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "access-auditor",
+      "category": "security",
+      "name": "access-auditor",
+      "role": "",
+      "path": "agents/security/access-auditor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "incident-logger",
+      "category": "security",
+      "name": "incident-logger",
+      "role": "",
+      "path": "agents/security/incident-logger/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "phishing-detector",
+      "category": "security",
+      "name": "Phishing Detector",
+      "role": "Email and URL Phishing Detection Agent",
+      "path": "agents/security/phishing-detector/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "security-hardener",
+      "category": "security",
+      "name": "security-hardener",
+      "role": "",
+      "path": "agents/security/security-hardener/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "threat-monitor",
+      "category": "security",
+      "name": "threat-monitor",
+      "role": "",
+      "path": "agents/security/threat-monitor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "vuln-scanner",
+      "category": "security",
+      "name": "vuln-scanner",
+      "role": "",
+      "path": "agents/security/vuln-scanner/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    }
+  ]
+}
