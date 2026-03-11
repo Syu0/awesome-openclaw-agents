@@ -16,7 +16,7 @@
 
 ### Don't want to set up Docker, VPS, or configs yourself?
 
-**[Browse all 103 templates →](https://crewclaw.com/agents)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent)**
+**[Browse all 103 templates →](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=browse)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=deploy)**
 
 Pick a template. Customize the config. Get a full deploy package. No terminal required.
 
