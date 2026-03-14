@@ -46,6 +46,7 @@ Pick a template. Customize the config. Get a full deploy package. No terminal re
 - [Integrations](#integrations)
 - [Tools](#tools)
 - [Tutorials & Guides](#tutorials--guides)
+- [Submit Your Agent](#submit-your-agent)
 - [Community](#community)
 
 ---
@@ -482,21 +483,28 @@ Learn how to build and deploy agents.
 
 ---
 
+## Submit Your Agent
+
+Built a custom agent? Get it listed here and on [crewclaw.com/agents](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=submit).
+
+**Via PR (recommended):**
+
+1. Fork this repo
+2. Add `agents/[category]/[your-agent]/SOUL.md` + `README.md`
+3. Add entry to `agents.json`
+4. Open a Pull Request
+
+**Via Issue (no setup):**
+
+[Submit Your Agent →](https://github.com/mergisi/awesome-openclaw-agents/issues/new?template=agent-submission.md) — paste your SOUL.md, we'll add it.
+
+Full guide: [CONTRIBUTING.md](CONTRIBUTING.md)
+
+---
+
 ## Community
 
-### Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md).
-
-#### How to Add an Agent
-
-1. Fork this repository
-2. Create folder: `agents/[category]/[agent-name]/`
-3. Add `SOUL.md` and `README.md`
-4. Update the main README table
-5. Submit a Pull Request
-
-Use the [Agent Request](https://github.com/mergisi/awesome-openclaw-agents/issues/new?template=agent-request.md) template to suggest new agents.
+Want to request an agent instead? Use the [Agent Request](https://github.com/mergisi/awesome-openclaw-agents/issues/new?template=agent-request.md) template.
 
 ---
 
@@ -525,5 +533,5 @@ To the extent possible under law, the contributors have waived all copyright and
 <p align="center">
   Made with 🦞 by the OpenClaw Community
   <br/>
-  <a href="https://crewclaw.com/create-agent">Deploy your agent with CrewClaw →</a>
+  <a href="https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=bottom_cta">Deploy your agent with CrewClaw →</a> · <a href="https://github.com/mergisi/awesome-openclaw-agents/issues/new?template=agent-submission.md">Submit yours →</a>
 </p>
