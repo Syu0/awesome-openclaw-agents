@@ -1,5 +1,5 @@
 {
-  "total": 145,
+  "total": 159,
   "agents": [
     {
       "id": "churn-predictor",
@@ -1183,6 +1183,118 @@
       "name": "Content Repurposer",
       "role": "Content Distribution Agent",
       "path": "agents/marketing/content-repurposer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "negotiation-agent",
+      "category": "automation",
+      "name": "Negotiation Agent",
+      "role": "Auto-Negotiation Agent",
+      "path": "agents/automation/negotiation-agent/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "job-applicant",
+      "category": "automation",
+      "name": "Job Applicant",
+      "role": "Job Application Agent",
+      "path": "agents/automation/job-applicant/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "morning-briefing",
+      "category": "automation",
+      "name": "Morning Briefing",
+      "role": "Daily Briefing Agent",
+      "path": "agents/automation/morning-briefing/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "flight-scraper",
+      "category": "automation",
+      "name": "Flight Scraper",
+      "role": "Flight Deal Agent",
+      "path": "agents/automation/flight-scraper/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "overnight-coder",
+      "category": "automation",
+      "name": "Overnight Coder",
+      "role": "Autonomous Coding Agent",
+      "path": "agents/automation/overnight-coder/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "discord-business",
+      "category": "automation",
+      "name": "Discord Business",
+      "role": "Discord Operations Agent",
+      "path": "agents/automation/discord-business/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "book-writer",
+      "category": "marketing",
+      "name": "Book Writer",
+      "role": "Book Production Agent",
+      "path": "agents/marketing/book-writer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "news-curator",
+      "category": "marketing",
+      "name": "News Curator",
+      "role": "News Curation Agent",
+      "path": "agents/marketing/news-curator/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "ugc-video",
+      "category": "marketing",
+      "name": "UGC Video",
+      "role": "UGC Video Agent",
+      "path": "agents/marketing/ugc-video/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "multi-account-social",
+      "category": "marketing",
+      "name": "Multi-Account Social",
+      "role": "Multi-Account Social Agent",
+      "path": "agents/marketing/multi-account-social/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "dropshipping-researcher",
+      "category": "ecommerce",
+      "name": "Dropshipping Researcher",
+      "role": "Product Research Agent",
+      "path": "agents/ecommerce/dropshipping-researcher/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "property-video",
+      "category": "real-estate",
+      "name": "Property Video",
+      "role": "Real Estate Video Agent",
+      "path": "agents/real-estate/property-video/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "commercial-re",
+      "category": "real-estate",
+      "name": "Commercial RE",
+      "role": "Commercial Real Estate Agent",
+      "path": "agents/real-estate/commercial-re/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "copy-trader",
+      "category": "finance",
+      "name": "Copy Trader",
+      "role": "Copy Trading Agent",
+      "path": "agents/finance/copy-trader/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     }
   ]

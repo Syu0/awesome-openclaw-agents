@@ -1,6 +1,6 @@
 # Agent Templates
 
-148 production-ready `SOUL.md` templates across 23 categories.
+162 production-ready `SOUL.md` templates across 24 categories.
 
 ## Quick Start
 
@@ -15,6 +15,7 @@ openclaw start
 
 | Category | Agents | |
 |----------|--------|-|
+| Automation | 6 | [Browse](automation/) |
 | Business | 12 | [Browse](business/) |
 | Compliance | 4 | [Browse](compliance/) |
 | Creative | 9 | [Browse](creative/) |
@@ -22,18 +23,18 @@ openclaw start
 | Data | 10 | [Browse](data/) |
 | Development | 18 | [Browse](development/) |
 | DevOps | 10 | [Browse](devops/) |
-| E-Commerce | 5 | [Browse](ecommerce/) |
+| E-Commerce | 6 | [Browse](ecommerce/) |
 | Education | 8 | [Browse](education/) |
-| Finance | 14 | [Browse](finance/) |
+| Finance | 15 | [Browse](finance/) |
 | Freelance | 3 | [Browse](freelance/) |
 | Healthcare | 7 | [Browse](healthcare/) |
 | HR | 7 | [Browse](hr/) |
 | Legal | 6 | [Browse](legal/) |
-| Marketing | 18 | [Browse](marketing/) |
+| Marketing | 22 | [Browse](marketing/) |
 | Moltbook | 3 | [Browse](moltbook/) |
 | Personal | 7 | [Browse](personal/) |
 | Productivity | 7 | [Browse](productivity/) |
-| Real Estate | 3 | [Browse](real-estate/) |
+| Real Estate | 5 | [Browse](real-estate/) |
 | SaaS | 5 | [Browse](saas/) |
 | Security | 6 | [Browse](security/) |
 | Supply Chain | 3 | [Browse](supply-chain/) |
@@ -41,7 +42,7 @@ openclaw start
 
 ## Skip the setup. Deploy in 60 seconds.
 
-**[Browse all 148 templates with one-click deploy](https://crewclaw.com/agents?utm_source=github&utm_medium=agents_readme&utm_campaign=browse)**
+**[Browse all 162 templates with one-click deploy](https://crewclaw.com/agents?utm_source=github&utm_medium=agents_readme&utm_campaign=browse)**
 
 Pick a template, customize it, and get a full deploy package (SOUL.md + Dockerfile + bot scripts + setup guide) in 60 seconds. No terminal required.
 

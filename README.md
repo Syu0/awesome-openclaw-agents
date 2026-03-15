@@ -4,19 +4,19 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Stars](https://img.shields.io/github/stars/mergisi/awesome-openclaw-agents?style=social)](https://github.com/mergisi/awesome-openclaw-agents)
-[![Agents](https://img.shields.io/badge/agents-148-blueviolet)](agents/)
+[![Agents](https://img.shields.io/badge/agents-162-blueviolet)](agents/)
 
-> A curated collection of **148 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
+> A curated collection of **162 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20148%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20162%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
 </p>
 
 <div align="center">
 
 ### Skip the setup. Deploy in 60 seconds.
 
-**[Browse all 148 templates →](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=browse)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=deploy)**
+**[Browse all 162 templates →](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=browse)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=deploy)**
 
 Pick a template. Customize the config. Get a full deploy package. No terminal required.
 
@@ -34,11 +34,11 @@ Pick a template. Customize the config. Get a full deploy package. No terminal re
 
 ## Contents
 
-- [Agent Templates](#agent-templates) (148 agents across 23 categories)
+- [Agent Templates](#agent-templates) (162 agents across 24 categories)
   - [Productivity](#productivity) · [Development](#development) · [Marketing](#marketing--content) · [Business](#business) · [Personal](#personal)
   - [DevOps](#devops) · [Finance](#finance) · [Education](#education) · [Healthcare](#healthcare) · [Legal](#legal) · [HR](#hr) · [Creative](#creative) · [Security](#security)
   - [E-Commerce](#e-commerce) · [Data](#data) · [SaaS](#saas) · [Real Estate](#real-estate) · [Freelance](#freelance) · [Moltbook](#-moltbook-new)
-  - [Supply Chain](#supply-chain) · [Compliance](#compliance) · [Voice](#voice) · [Customer Success](#customer-success)
+  - [Supply Chain](#supply-chain) · [Compliance](#compliance) · [Voice](#voice) · [Customer Success](#customer-success) · [Automation](#automation)
 - [Use Cases](#use-cases) (132 real-world examples)
 - [Quickstart](#quickstart)
 - [Why OpenClaw?](#why-openclaw) (Comparison)
@@ -120,6 +120,10 @@ Growing your audience on autopilot.
 | [👁️ Brand Monitor](agents/marketing/brand-monitor/) | Brand mention monitoring, sentiment alerts | When you need to know every time your brand is mentioned | [View](agents/marketing/brand-monitor/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 | [📧 Email Sequence](agents/marketing/email-sequence/) | Multi-step drip campaigns, subject lines | When you need automated email nurture sequences | [View](agents/marketing/email-sequence/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
 | [♻️ Content Repurposer](agents/marketing/content-repurposer/) | Blog to tweets, posts, shorts scripts | When you want one piece of content on every platform | [View](agents/marketing/content-repurposer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
+| [📖 Book Writer](agents/marketing/book-writer/) | Full book production pipeline, 6 phases | When you want to write a book from outline to manuscript | [View](agents/marketing/book-writer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
+| [📰 News Curator](agents/marketing/news-curator/) | Source scanning, AI curation, publishing | When you need automated news digests from 50+ sources | [View](agents/marketing/news-curator/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
+| [🎥 UGC Video](agents/marketing/ugc-video/) | AI influencer-style video content | When you need UGC-style video scripts and production plans | [View](agents/marketing/ugc-video/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
+| [📱 Multi-Account Social](agents/marketing/multi-account-social/) | 10+ account management, scheduling | When you manage multiple brand accounts across platforms | [View](agents/marketing/multi-account-social/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=social-media-manager) |
 
 > **Need a Content Writer or SEO agent?** [Deploy with CrewClaw →](https://crewclaw.com/create-agent?role=content-writer)
 
@@ -188,6 +192,7 @@ Making sense of the numbers.
 | [📊 Financial Forecaster](agents/finance/financial-forecaster/) | Revenue/expense forecasts from historical data | When you need data-driven financial projections | [View](agents/finance/financial-forecaster/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 | [⚖️ Portfolio Rebalancer](agents/finance/portfolio-rebalancer/) | Allocation drift analysis, rebalancing trades | When your investment portfolio needs periodic rebalancing | [View](agents/finance/portfolio-rebalancer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 | [💳 Accounts Payable](agents/finance/accounts-payable/) | Invoice matching, approval routing, payments | When AP workflow needs automation and faster processing | [View](agents/finance/accounts-payable/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
+| [📋 Copy Trader](agents/finance/copy-trader/) | Copy trades from top performers, risk controls | When you want automated trade replication on prediction markets | [View](agents/finance/copy-trader/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 
 ### 🎓 Education
 
@@ -284,6 +289,7 @@ Selling more, managing less.
 | [📦 Inventory Tracker](agents/ecommerce/inventory-tracker/) | Stock monitoring, reorder alerts | When you need to prevent stockouts and overstock | [View](agents/ecommerce/inventory-tracker/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 | [💲 Pricing Optimizer](agents/ecommerce/pricing-optimizer/) | Dynamic pricing, competition tracking | When you want pricing that adjusts to market conditions | [View](agents/ecommerce/pricing-optimizer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 | [🛒 Abandoned Cart](agents/ecommerce/abandoned-cart/) | Cart recovery, win-back sequences | When you're losing sales to abandoned carts | [View](agents/ecommerce/abandoned-cart/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=sales-representative) |
+| [🔍 Dropshipping Researcher](agents/ecommerce/dropshipping-researcher/) | 24/7 product research, supplier analysis | When you need continuous product discovery for dropshipping | [View](agents/ecommerce/dropshipping-researcher/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 
 > **Running a Shopify or Amazon store?** [Deploy an E-Commerce agent →](https://crewclaw.com/create-agent?role=customer-support)
 
@@ -324,6 +330,8 @@ Finding deals, closing faster.
 | [🏡 Listing Scout](agents/real-estate/listing-scout/) | Property monitoring, price drop alerts | When you want instant alerts on new listings and price drops | [View](agents/real-estate/listing-scout/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 | [📊 Market Analyzer](agents/real-estate/market-analyzer/) | Market analysis, comparable reports | When you need automated market comps and trend analysis | [View](agents/real-estate/market-analyzer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 | [🎯 Lead Qualifier](agents/real-estate/lead-qualifier/) | Lead scoring, follow-up sequences | When leads are coming in faster than you can qualify them | [View](agents/real-estate/lead-qualifier/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=sales-representative) |
+| [🎬 Property Video](agents/real-estate/property-video/) | Listing videos, virtual tours, staging | When you need property video content at scale | [View](agents/real-estate/property-video/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=content-writer) |
+| [🏢 Commercial RE](agents/real-estate/commercial-re/) | CRE analysis, cap rates, deal tracking | When you need commercial property investment analysis | [View](agents/real-estate/commercial-re/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 
 ### 🧑‍💻 Freelance
 
@@ -389,6 +397,19 @@ Keeping customers happy and growing.
 | [📊 NPS Followup](agents/customer-success/nps-followup/) | Detractor recovery, personalized outreach | When NPS detractors need immediate attention | [View](agents/customer-success/nps-followup/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=customer-support) |
 | [🎯 Onboarding Guide](agents/customer-success/onboarding-guide/) | Product setup, contextual tips | When new users need guided product onboarding | [View](agents/customer-success/onboarding-guide/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=customer-support) |
 
+### 🔄 Automation `NEW`
+
+Set it and forget it. Agents that work while you sleep.
+
+| Agent | Specialty | When to Use | SOUL.md | Deploy |
+|-------|-----------|-------------|---------|--------|
+| [🤝 Negotiation Agent](agents/automation/negotiation-agent/) | Bill negotiation, deal closing | When you want AI to negotiate your bills and contracts | [View](agents/automation/negotiation-agent/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
+| [📄 Job Applicant](agents/automation/job-applicant/) | Mass applications, resume customization | When you want to apply to 500+ jobs while you sleep | [View](agents/automation/job-applicant/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
+| [☀️ Morning Briefing](agents/automation/morning-briefing/) | Email, calendar, news daily rollup | When you want a personalized daily briefing ready at 7AM | [View](agents/automation/morning-briefing/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
+| [✈️ Flight Scraper](agents/automation/flight-scraper/) | Flight deals, price drop alerts | When you want the cheapest flights found automatically | [View](agents/automation/flight-scraper/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
+| [🌙 Overnight Coder](agents/automation/overnight-coder/) | Autonomous coding, PRs by morning | When you want code written while you sleep | [View](agents/automation/overnight-coder/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
+| [💬 Discord Business](agents/automation/discord-business/) | Full business ops via Discord | When you run your business through Discord | [View](agents/automation/discord-business/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
+
 ---
 
 ## Use Cases
@@ -435,7 +456,7 @@ How OpenClaw compares to other AI agent frameworks:
 | Self-hosted / local | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Heartbeat monitoring | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Works with Ollama (free) | ✅ | ✅ | ✅ | ✅ | ❌ |
-| Production-ready templates | **148** | 0 | 5 | 0 | 3 |
+| Production-ready templates | **162** | 0 | 5 | 0 | 3 |
 | One-command deploy | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Agent-to-agent communication | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Setup time | ~5 min | ~30 min | ~20 min | ~45 min | ~30 min |
@@ -459,7 +480,7 @@ Your CrewClaw package includes:
 └── README.md                     # Setup instructions
 ```
 
-Pick any of the 148 templates above, or create a custom agent from scratch.
+Pick any of the 162 templates above, or create a custom agent from scratch.
 
 **[Create your agent →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=bottom_cta)**
 
