@@ -1,6 +1,6 @@
 # Agent Templates
 
-103 production-ready `SOUL.md` templates across 19 categories.
+148 production-ready `SOUL.md` templates across 23 categories.
 
 ## Quick Start
 
@@ -15,29 +15,33 @@ openclaw start
 
 | Category | Agents | |
 |----------|--------|-|
-| Business | 9 | [Browse](business/) |
-| Creative | 7 | [Browse](creative/) |
-| Data | 8 | [Browse](data/) |
-| Development | 17 | [Browse](development/) |
-| DevOps | 7 | [Browse](devops/) |
+| Business | 12 | [Browse](business/) |
+| Compliance | 4 | [Browse](compliance/) |
+| Creative | 9 | [Browse](creative/) |
+| Customer Success | 2 | [Browse](customer-success/) |
+| Data | 10 | [Browse](data/) |
+| Development | 18 | [Browse](development/) |
+| DevOps | 10 | [Browse](devops/) |
 | E-Commerce | 5 | [Browse](ecommerce/) |
-| Education | 5 | [Browse](education/) |
-| Finance | 10 | [Browse](finance/) |
+| Education | 8 | [Browse](education/) |
+| Finance | 14 | [Browse](finance/) |
 | Freelance | 3 | [Browse](freelance/) |
-| Healthcare | 3 | [Browse](healthcare/) |
-| HR | 3 | [Browse](hr/) |
-| Legal | 3 | [Browse](legal/) |
-| Marketing | 16 | [Browse](marketing/) |
+| Healthcare | 7 | [Browse](healthcare/) |
+| HR | 7 | [Browse](hr/) |
+| Legal | 6 | [Browse](legal/) |
+| Marketing | 18 | [Browse](marketing/) |
 | Moltbook | 3 | [Browse](moltbook/) |
-| Personal | 5 | [Browse](personal/) |
+| Personal | 7 | [Browse](personal/) |
 | Productivity | 7 | [Browse](productivity/) |
 | Real Estate | 3 | [Browse](real-estate/) |
 | SaaS | 5 | [Browse](saas/) |
 | Security | 6 | [Browse](security/) |
+| Supply Chain | 3 | [Browse](supply-chain/) |
+| Voice | 3 | [Browse](voice/) |
 
 ## Don't want to set up Docker and configs manually?
 
-**[Browse all 103 templates with one-click deploy](https://crewclaw.com/agents?utm_source=github&utm_medium=agents_readme&utm_campaign=browse)**
+**[Browse all 148 templates with one-click deploy](https://crewclaw.com/agents?utm_source=github&utm_medium=agents_readme&utm_campaign=browse)**
 
 Pick a template, customize it, and get a full deploy package (SOUL.md + Dockerfile + bot scripts + setup guide) in 60 seconds. No terminal required.
 

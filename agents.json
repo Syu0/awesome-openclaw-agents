@@ -1,5 +1,5 @@
 {
-  "total": 100,
+  "total": 145,
   "agents": [
     {
       "id": "churn-predictor",
@@ -823,6 +823,366 @@
       "name": "vuln-scanner",
       "role": "",
       "path": "agents/security/vuln-scanner/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "route-optimizer",
+      "category": "supply-chain",
+      "name": "Route Optimizer",
+      "role": "Route Optimization Agent",
+      "path": "agents/supply-chain/route-optimizer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "inventory-forecaster",
+      "category": "supply-chain",
+      "name": "Inventory Forecaster",
+      "role": "Demand Forecasting Agent",
+      "path": "agents/supply-chain/inventory-forecaster/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "vendor-evaluator",
+      "category": "supply-chain",
+      "name": "Vendor Evaluator",
+      "role": "Supplier Evaluation Agent",
+      "path": "agents/supply-chain/vendor-evaluator/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "gdpr-auditor",
+      "category": "compliance",
+      "name": "GDPR Auditor",
+      "role": "GDPR Compliance Agent",
+      "path": "agents/compliance/gdpr-auditor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "soc2-preparer",
+      "category": "compliance",
+      "name": "SOC2 Preparer",
+      "role": "SOC 2 Audit Agent",
+      "path": "agents/compliance/soc2-preparer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "ai-policy-writer",
+      "category": "compliance",
+      "name": "AI Policy Writer",
+      "role": "AI Governance Agent",
+      "path": "agents/compliance/ai-policy-writer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "risk-assessor",
+      "category": "compliance",
+      "name": "Risk Assessor",
+      "role": "Risk Assessment Agent",
+      "path": "agents/compliance/risk-assessor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "phone-receptionist",
+      "category": "voice",
+      "name": "Phone Receptionist",
+      "role": "Voice Reception Agent",
+      "path": "agents/voice/phone-receptionist/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "voicemail-transcriber",
+      "category": "voice",
+      "name": "Voicemail Transcriber",
+      "role": "Voicemail Agent",
+      "path": "agents/voice/voicemail-transcriber/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "interview-bot",
+      "category": "voice",
+      "name": "Interview Bot",
+      "role": "Interview Screening Agent",
+      "path": "agents/voice/interview-bot/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "nps-followup",
+      "category": "customer-success",
+      "name": "NPS Followup",
+      "role": "NPS Recovery Agent",
+      "path": "agents/customer-success/nps-followup/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "onboarding-guide",
+      "category": "customer-success",
+      "name": "Onboarding Guide",
+      "role": "User Onboarding Agent",
+      "path": "agents/customer-success/onboarding-guide/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "patent-analyzer",
+      "category": "legal",
+      "name": "Patent Analyzer",
+      "role": "Patent Analysis Agent",
+      "path": "agents/legal/patent-analyzer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "legal-brief-writer",
+      "category": "legal",
+      "name": "Legal Brief Writer",
+      "role": "Legal Drafting Agent",
+      "path": "agents/legal/legal-brief-writer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "nda-generator",
+      "category": "legal",
+      "name": "NDA Generator",
+      "role": "NDA Drafting Agent",
+      "path": "agents/legal/nda-generator/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "fraud-detector",
+      "category": "finance",
+      "name": "Fraud Detector",
+      "role": "Fraud Detection Agent",
+      "path": "agents/finance/fraud-detector/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "financial-forecaster",
+      "category": "finance",
+      "name": "Financial Forecaster",
+      "role": "Financial Forecasting Agent",
+      "path": "agents/finance/financial-forecaster/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "portfolio-rebalancer",
+      "category": "finance",
+      "name": "Portfolio Rebalancer",
+      "role": "Portfolio Management Agent",
+      "path": "agents/finance/portfolio-rebalancer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "accounts-payable",
+      "category": "finance",
+      "name": "Accounts Payable",
+      "role": "AP Automation Agent",
+      "path": "agents/finance/accounts-payable/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "symptom-triage",
+      "category": "healthcare",
+      "name": "Symptom Triage",
+      "role": "Symptom Assessment Agent",
+      "path": "agents/healthcare/symptom-triage/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "clinical-notes",
+      "category": "healthcare",
+      "name": "Clinical Notes",
+      "role": "Clinical Documentation Agent",
+      "path": "agents/healthcare/clinical-notes/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "medication-checker",
+      "category": "healthcare",
+      "name": "Medication Checker",
+      "role": "Medication Safety Agent",
+      "path": "agents/healthcare/medication-checker/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "patient-intake",
+      "category": "healthcare",
+      "name": "Patient Intake",
+      "role": "Patient Registration Agent",
+      "path": "agents/healthcare/patient-intake/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "resume-screener",
+      "category": "hr",
+      "name": "Resume Screener",
+      "role": "Resume Screening Agent",
+      "path": "agents/hr/resume-screener/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "exit-interview",
+      "category": "hr",
+      "name": "Exit Interview",
+      "role": "Exit Interview Agent",
+      "path": "agents/hr/exit-interview/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "benefits-advisor",
+      "category": "hr",
+      "name": "Benefits Advisor",
+      "role": "Employee Benefits Agent",
+      "path": "agents/hr/benefits-advisor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "compensation-benchmarker",
+      "category": "hr",
+      "name": "Compensation Benchmarker",
+      "role": "Compensation Analysis Agent",
+      "path": "agents/hr/compensation-benchmarker/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "sdr-outbound",
+      "category": "business",
+      "name": "SDR Outbound",
+      "role": "Outbound SDR Agent",
+      "path": "agents/business/sdr-outbound/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "deal-forecaster",
+      "category": "business",
+      "name": "Deal Forecaster",
+      "role": "Deal Prediction Agent",
+      "path": "agents/business/deal-forecaster/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "objection-handler",
+      "category": "business",
+      "name": "Objection Handler",
+      "role": "Sales Objection Agent",
+      "path": "agents/business/objection-handler/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "schema-designer",
+      "category": "development",
+      "name": "Schema Designer",
+      "role": "Database Schema Agent",
+      "path": "agents/development/schema-designer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "runbook-writer",
+      "category": "devops",
+      "name": "Runbook Writer",
+      "role": "Runbook Generation Agent",
+      "path": "agents/devops/runbook-writer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "sla-monitor",
+      "category": "devops",
+      "name": "SLA Monitor",
+      "role": "SLA Compliance Agent",
+      "path": "agents/devops/sla-monitor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "capacity-planner",
+      "category": "devops",
+      "name": "Capacity Planner",
+      "role": "Capacity Planning Agent",
+      "path": "agents/devops/capacity-planner/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "ad-copywriter",
+      "category": "creative",
+      "name": "Ad Copywriter",
+      "role": "Ad Copy Agent",
+      "path": "agents/creative/ad-copywriter/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "storyboard-writer",
+      "category": "creative",
+      "name": "Storyboard Writer",
+      "role": "Storyboard Agent",
+      "path": "agents/creative/storyboard-writer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "curriculum-designer",
+      "category": "education",
+      "name": "Curriculum Designer",
+      "role": "Curriculum Design Agent",
+      "path": "agents/education/curriculum-designer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "essay-grader",
+      "category": "education",
+      "name": "Essay Grader",
+      "role": "Essay Grading Agent",
+      "path": "agents/education/essay-grader/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "flashcard-generator",
+      "category": "education",
+      "name": "Flashcard Generator",
+      "role": "Flashcard Agent",
+      "path": "agents/education/flashcard-generator/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "anomaly-detector",
+      "category": "data",
+      "name": "Anomaly Detector",
+      "role": "Anomaly Detection Agent",
+      "path": "agents/data/anomaly-detector/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "survey-analyzer",
+      "category": "data",
+      "name": "Survey Analyzer",
+      "role": "Survey Analysis Agent",
+      "path": "agents/data/survey-analyzer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "travel-planner",
+      "category": "personal",
+      "name": "Travel Planner",
+      "role": "Travel Planning Agent",
+      "path": "agents/personal/travel-planner/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "journal-prompter",
+      "category": "personal",
+      "name": "Journal Prompter",
+      "role": "Journaling Agent",
+      "path": "agents/personal/journal-prompter/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "email-sequence",
+      "category": "marketing",
+      "name": "Email Sequence",
+      "role": "Email Drip Agent",
+      "path": "agents/marketing/email-sequence/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "content-repurposer",
+      "category": "marketing",
+      "name": "Content Repurposer",
+      "role": "Content Distribution Agent",
+      "path": "agents/marketing/content-repurposer/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     }
   ]
