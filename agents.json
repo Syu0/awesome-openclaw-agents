@@ -1,5 +1,5 @@
 {
-  "total": 159,
+  "total": 174,
   "agents": [
     {
       "id": "churn-predictor",
@@ -1295,6 +1295,126 @@
       "name": "Copy Trader",
       "role": "Copy Trading Agent",
       "path": "agents/finance/copy-trader/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "data-entry",
+      "category": "data",
+      "name": "Data Entry",
+      "role": "Data Entry Agent",
+      "path": "agents/data/data-entry/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "transcription",
+      "category": "data",
+      "name": "Transcription",
+      "role": "Transcription Agent",
+      "path": "agents/data/transcription/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "audio-producer",
+      "category": "creative",
+      "name": "Audio Producer",
+      "role": "Audio Production Agent",
+      "path": "agents/creative/audio-producer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "proofreader",
+      "category": "creative",
+      "name": "Proofreader",
+      "role": "Proofreading Agent",
+      "path": "agents/creative/proofreader/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "script-builder",
+      "category": "development",
+      "name": "Script Builder",
+      "role": "Script Automation Agent",
+      "path": "agents/development/script-builder/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "qa-tester",
+      "category": "development",
+      "name": "QA Tester",
+      "role": "QA Testing Agent",
+      "path": "agents/development/qa-tester/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "ecommerce-dev",
+      "category": "development",
+      "name": "Ecommerce Dev",
+      "role": "Ecommerce Development Agent",
+      "path": "agents/development/ecommerce-dev/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "blockchain-analyst",
+      "category": "development",
+      "name": "Blockchain Analyst",
+      "role": "Blockchain Analysis Agent",
+      "path": "agents/development/blockchain-analyst/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "game-designer",
+      "category": "development",
+      "name": "Game Designer",
+      "role": "Game Design Agent",
+      "path": "agents/development/game-designer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "lead-gen",
+      "category": "business",
+      "name": "Lead Gen",
+      "role": "Lead Generation Agent",
+      "path": "agents/business/lead-gen/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "erp-admin",
+      "category": "business",
+      "name": "ERP Admin",
+      "role": "ERP/CRM Administration Agent",
+      "path": "agents/business/erp-admin/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "telemarketer",
+      "category": "marketing",
+      "name": "Telemarketer",
+      "role": "Telemarketing Agent",
+      "path": "agents/marketing/telemarketer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "localization",
+      "category": "marketing",
+      "name": "Localization",
+      "role": "Localization Agent",
+      "path": "agents/marketing/localization/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "product-scrum",
+      "category": "saas",
+      "name": "Product Scrum",
+      "role": "Scrum Master Agent",
+      "path": "agents/saas/product-scrum/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "upwork-proposal",
+      "category": "freelance",
+      "name": "Upwork Proposal",
+      "role": "Proposal Writing Agent",
+      "path": "agents/freelance/upwork-proposal/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     }
   ]
