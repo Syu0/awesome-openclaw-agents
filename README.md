@@ -41,6 +41,7 @@ Pick a template. Customize the config. Get a full deploy package. No terminal re
   - [E-Commerce](#e-commerce) · [Data](#data) · [SaaS](#saas) · [Real Estate](#real-estate) · [Freelance](#freelance) · [Moltbook](#-moltbook-new)
   - [Supply Chain](#supply-chain) · [Compliance](#compliance) · [Voice](#voice) · [Customer Success](#customer-success) · [Automation](#automation)
 - [Use Cases](#use-cases) (132 real-world examples)
+- [Skills](#skills) (on-device skills for Gemma & Claude Code)
 - [Quickstart](#quickstart)
 - [Why OpenClaw?](#why-openclaw) (vs Frameworks, Lightweight, Enterprise)
 - [Quick Deploy with CrewClaw](#quick-deploy-with-crewclaw)
@@ -424,6 +425,22 @@ From developer workflows and DevOps automation to smart home control, crypto tra
 **[Browse all 132 use cases →](USE-CASES.md)**
 
 Top categories: Personal Productivity (14) · Business Operations (11) · Developer Workflows (10) · Content Creation (10) · Ecosystem Tools (10)
+
+---
+
+## Skills
+
+Reusable on-device skills for local AI platforms.
+
+### [Gemma](./skills/gemma/) — Google AI Edge Gallery
+Skills for Gemma 4 running on iPhone / Android via [Google AI Edge Gallery](https://github.com/google-ai-edge/gallery). Fully offline, no API.
+
+- **[haiku-card](./skills/gemma/haiku-card/)** — Write a haiku, render as a shareable card
+
+### [Claude](./skills/claude/) — Claude Code
+Skills for [Claude Code](https://claude.com/claude-code), invoked via slash commands or automatic triggers.
+
+**[Browse all skills →](./skills/)**
 
 ---
 
