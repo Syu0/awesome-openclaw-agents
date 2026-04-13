@@ -446,9 +446,25 @@ Reusable on-device skills for local AI platforms.
 Skills for Gemma 4 running on iPhone / Android via [Google AI Edge Gallery](https://github.com/google-ai-edge/gallery). Fully offline, no API.
 
 - **[haiku-card](./skills/gemma/haiku-card/)** — Write a haiku, render as a shareable card
+- **[code-explainer](./skills/gemma/code-explainer/)** — Paste code, get a plain English explanation
+- **[commit-message](./skills/gemma/commit-message/)** — Generate a conventional commit message from a change description
+- **[cover-letter](./skills/gemma/cover-letter/)** — Role + background → concise cover letter paragraph
+- **[growth-ideas](./skills/gemma/growth-ideas/)** — Three actionable growth ideas tailored to your stage
+- **[meeting-notes](./skills/gemma/meeting-notes/)** — Raw notes → clean summary with decisions and action items
+- **[pricing-advisor](./skills/gemma/pricing-advisor/)** — Three-tier pricing strategy with rationale
+- **[regex-builder](./skills/gemma/regex-builder/)** — Plain English pattern → working regex + explanation
+- **[sql-explainer](./skills/gemma/sql-explainer/)** — Paste a SQL query, get a plain English explanation
+- **[standup-summary](./skills/gemma/standup-summary/)** — Notes in → clean standup update out
+- **[tone-shifter](./skills/gemma/tone-shifter/)** — Rewrite any text in a different tone
 
 ### [Claude](./skills/claude/) — Claude Code
 Skills for [Claude Code](https://claude.com/claude-code), invoked via slash commands or automatic triggers.
+
+- **[git-commit-writer](./skills/claude/git-commit-writer/)** — Draft opinionated commit messages from staged changes, matching repo conventions
+- **[openclaw-debugger](./skills/claude/openclaw-debugger/)** — 6-step diagnosis checklist when an OpenClaw agent is dead or misbehaving
+- **[model-cost-compare](./skills/claude/model-cost-compare/)** — Estimate token cost across Opus, Sonnet, GLM-5.1, Minimax M2.7, local Gemma for a task
+- **[excalidraw-architecture](./skills/claude/excalidraw-architecture/)** — Generate/update an Excalidraw architecture diagram from the current codebase
+- **[cost-optimizer](./skills/claude/cost-optimizer/)** — Audit a project's Claude Code usage for cost wins (bloated memory, cache misses, over-pinned Opus)
 
 **[Browse all skills →](./skills/)**
 
